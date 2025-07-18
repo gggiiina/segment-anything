@@ -11,7 +11,7 @@ print("✅ 模型載入完成")
 
 # === 設定目錄 ===
 input_dir = "test_image"
-output_json_path = "sam_data_already_prepro.json"
+output_json_path = "sam_data_already_prepro_shoes.json"
 
 # 你想要保留的類別 ID（僅服飾）
 target_ids = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 21, 23]
@@ -95,6 +95,7 @@ for idx, filename in enumerate(image_files, start=1):
     print(f"  🎯 篩選信心分數 > 0.5 的物件，共 {len(results['scores'])} 個")
 
     best_detections = {}
+    shoe_candidates = []
 
     for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
         label_id = int(label.item())
@@ -104,8 +105,24 @@ for idx, filename in enumerate(image_files, start=1):
         score_val = float(score.item())
         label_name = model.config.id2label[label_id]
 
-        if label_id not in best_detections or score_val > best_detections[label_id][0]:
-            best_detections[label_id] = (score_val, box, label_name)
+        if label_id == 23:
+            shoe_candidates.append((score_val, box))
+        else:
+            if label_id not in best_detections or score_val > best_detections[label_id][0]:
+                best_detections[label_id] = (score_val, box, label_name)
+
+    # 處理鞋子的前兩個 bbox
+    shoe_candidates.sort(reverse=True, key=lambda x: x[0])
+    if len(shoe_candidates) >= 2:
+        # 取分數前兩高
+        _, box1 = shoe_candidates[0]
+        _, box2 = shoe_candidates[1]
+        x1 = min(box1[0], box2[0])
+        y1 = min(box1[1], box2[1])
+        x2 = max(box1[2], box2[2])
+        y2 = max(box1[3], box2[3])
+        merged_box = torch.tensor([x1, y1, x2, y2])
+        best_detections[23] = (1.0, merged_box, "shoe")
 
     print(f"  ✅ 保留目標類別 {len(best_detections)} 個")
 

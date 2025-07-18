@@ -6,7 +6,7 @@ from collections import defaultdict
 from segment_anything import SamPredictor, sam_model_registry
 
 # === 載入整合資料 ===
-with open("sam_data_already_prepro.json", "r") as f:
+with open("sam_data_already_prepro_shoes.json", "r") as f:
     sam_data = json.load(f)
 
 print(f"✅ 共載入 {len(sam_data)} 個 box prompt")
@@ -18,7 +18,7 @@ predictor = SamPredictor(sam)
 print("✅ SAM 模型初始化完成")
 
 # === 建立主輸出資料夾 ===
-main_output_dir = "seg_pic2"
+main_output_dir = "seg_pic2_shoes"
 os.makedirs(main_output_dir, exist_ok=True)
 print(f"📂 主輸出資料夾已準備好：{main_output_dir}")
 
