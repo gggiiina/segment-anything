@@ -1,0 +1,932 @@
+[
+  {
+    "filename": "1.jpg",
+    "label": "pants",
+    "box": [
+      404.68,
+      634.28,
+      779.37,
+      1487.63
+    ]
+  },
+  {
+    "filename": "1.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      408.23,
+      338.62,
+      728.84,
+      662.7
+    ]
+  },
+  {
+    "filename": "1.jpg",
+    "label": "shoe",
+    "box": [
+      509.76,
+      1402.15,
+      833.79,
+      1515.08
+    ]
+  },
+  {
+    "filename": "10.jpg",
+    "label": "dress",
+    "box": [
+      376.7,
+      309.21,
+      802.77,
+      1307.19
+    ]
+  },
+  {
+    "filename": "10.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      369.28,
+      313.44,
+      763.64,
+      614.07
+    ]
+  },
+  {
+    "filename": "10.jpg",
+    "label": "shoe",
+    "box": [
+      478.18,
+      1370.72,
+      703.81,
+      1518.58
+    ]
+  },
+  {
+    "filename": "11.jpg",
+    "label": "dress",
+    "box": [
+      228.17,
+      374.31,
+      885.33,
+      1446.15
+    ]
+  },
+  {
+    "filename": "11.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      217.6,
+      380.21,
+      888.98,
+      949.43
+    ]
+  },
+  {
+    "filename": "12.jpg",
+    "label": "dress",
+    "box": [
+      299.55,
+      301.61,
+      812.38,
+      1376.78
+    ]
+  },
+  {
+    "filename": "12.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      470.97,
+      302.84,
+      747.02,
+      630.0
+    ]
+  },
+  {
+    "filename": "12.jpg",
+    "label": "shoe",
+    "box": [
+      366.46,
+      1402.17,
+      680.0,
+      1530.09
+    ]
+  },
+  {
+    "filename": "13.jpg",
+    "label": "pants",
+    "box": [
+      416.14,
+      635.95,
+      744.13,
+      1445.27
+    ]
+  },
+  {
+    "filename": "13.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      399.8,
+      304.73,
+      792.5,
+      657.82
+    ]
+  },
+  {
+    "filename": "13.jpg",
+    "label": "shoe",
+    "box": [
+      523.34,
+      1297.81,
+      671.55,
+      1523.1
+    ]
+  },
+  {
+    "filename": "14.jpg",
+    "label": "dress",
+    "box": [
+      266.27,
+      326.43,
+      810.34,
+      1185.23
+    ]
+  },
+  {
+    "filename": "14.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      422.3,
+      332.41,
+      739.42,
+      778.18
+    ]
+  },
+  {
+    "filename": "14.jpg",
+    "label": "shoe",
+    "box": [
+      487.99,
+      1332.59,
+      870.69,
+      1526.37
+    ]
+  },
+  {
+    "filename": "15.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      24.57,
+      512.91,
+      1068.98,
+      1329.66
+    ]
+  },
+  {
+    "filename": "15.jpg",
+    "label": "skirt",
+    "box": [
+      265.46,
+      1356.19,
+      1006.36,
+      1595.65
+    ]
+  },
+  {
+    "filename": "15.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      33.21,
+      525.73,
+      1045.77,
+      1318.34
+    ]
+  },
+  {
+    "filename": "16.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      362.77,
+      298.86,
+      763.53,
+      702.53
+    ]
+  },
+  {
+    "filename": "16.jpg",
+    "label": "shorts",
+    "box": [
+      414.92,
+      645.45,
+      700.35,
+      925.38
+    ]
+  },
+  {
+    "filename": "16.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      546.1,
+      328.94,
+      631.92,
+      642.65
+    ]
+  },
+  {
+    "filename": "16.jpg",
+    "label": "shoe",
+    "box": [
+      487.25,
+      1394.02,
+      674.9,
+      1519.65
+    ]
+  },
+  {
+    "filename": "17.jpg",
+    "label": "pants",
+    "box": [
+      377.1,
+      644.57,
+      761.69,
+      1478.33
+    ]
+  },
+  {
+    "filename": "17.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      357.63,
+      263.76,
+      792.02,
+      675.27
+    ]
+  },
+  {
+    "filename": "17.jpg",
+    "label": "shoe",
+    "box": [
+      451.27,
+      1414.2,
+      771.05,
+      1536.24
+    ]
+  },
+  {
+    "filename": "18.jpg",
+    "label": "pants",
+    "box": [
+      335.54,
+      669.99,
+      743.95,
+      1460.53
+    ]
+  },
+  {
+    "filename": "18.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      349.42,
+      271.55,
+      813.3,
+      876.02
+    ]
+  },
+  {
+    "filename": "18.jpg",
+    "label": "sweater",
+    "box": [
+      371.33,
+      296.68,
+      780.38,
+      695.7
+    ]
+  },
+  {
+    "filename": "18.jpg",
+    "label": "shoe",
+    "box": [
+      351.78,
+      1377.45,
+      631.32,
+      1513.81
+    ]
+  },
+  {
+    "filename": "19.jpg",
+    "label": "dress",
+    "box": [
+      309.78,
+      299.99,
+      817.46,
+      1310.44
+    ]
+  },
+  {
+    "filename": "19.jpg",
+    "label": "shoe",
+    "box": [
+      511.83,
+      1415.45,
+      918.69,
+      1545.48
+    ]
+  },
+  {
+    "filename": "2.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      372.02,
+      296.71,
+      747.76,
+      608.41
+    ]
+  },
+  {
+    "filename": "2.jpg",
+    "label": "shorts",
+    "box": [
+      362.54,
+      609.3,
+      732.03,
+      1093.06
+    ]
+  },
+  {
+    "filename": "2.jpg",
+    "label": "shoe",
+    "box": [
+      451.47,
+      1364.79,
+      797.12,
+      1534.22
+    ]
+  },
+  {
+    "filename": "20.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      323.06,
+      429.93,
+      778.32,
+      1006.69
+    ]
+  },
+  {
+    "filename": "20.jpg",
+    "label": "dress",
+    "box": [
+      333.52,
+      445.22,
+      1208.85,
+      1548.29
+    ]
+  },
+  {
+    "filename": "20.jpg",
+    "label": "pants",
+    "box": [
+      298.17,
+      881.79,
+      1217.98,
+      1516.33
+    ]
+  },
+  {
+    "filename": "21.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      401.77,
+      512.18,
+      753.46,
+      935.66
+    ]
+  },
+  {
+    "filename": "21.jpg",
+    "label": "pants",
+    "box": [
+      290.64,
+      959.15,
+      772.34,
+      1597.51
+    ]
+  },
+  {
+    "filename": "21.jpg",
+    "label": "dress",
+    "box": [
+      280.06,
+      822.21,
+      767.87,
+      1606.78
+    ]
+  },
+  {
+    "filename": "22.jpg",
+    "label": "dress",
+    "box": [
+      402.2,
+      314.69,
+      755.34,
+      1296.62
+    ]
+  },
+  {
+    "filename": "22.jpg",
+    "label": "pants",
+    "box": [
+      464.92,
+      1270.33,
+      712.23,
+      1487.61
+    ]
+  },
+  {
+    "filename": "22.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      417.12,
+      315.71,
+      759.03,
+      580.46
+    ]
+  },
+  {
+    "filename": "22.jpg",
+    "label": "shoe",
+    "box": [
+      487.23,
+      1465.36,
+      779.38,
+      1526.17
+    ]
+  },
+  {
+    "filename": "23.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      354.59,
+      405.81,
+      883.35,
+      1075.45
+    ]
+  },
+  {
+    "filename": "23.jpg",
+    "label": "pants",
+    "box": [
+      347.53,
+      1042.57,
+      842.67,
+      1598.63
+    ]
+  },
+  {
+    "filename": "23.jpg",
+    "label": "dress",
+    "box": [
+      346.24,
+      407.61,
+      869.48,
+      1604.76
+    ]
+  },
+  {
+    "filename": "24.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      262.95,
+      462.35,
+      887.48,
+      1045.5
+    ]
+  },
+  {
+    "filename": "24.jpg",
+    "label": "pants",
+    "box": [
+      332.03,
+      992.93,
+      886.26,
+      1600.68
+    ]
+  },
+  {
+    "filename": "24.jpg",
+    "label": "dress",
+    "box": [
+      274.95,
+      480.11,
+      891.17,
+      1611.37
+    ]
+  },
+  {
+    "filename": "25.jpg",
+    "label": "shorts",
+    "box": [
+      338.42,
+      588.34,
+      647.37,
+      910.57
+    ]
+  },
+  {
+    "filename": "25.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      390.97,
+      299.93,
+      567.6,
+      580.94
+    ]
+  },
+  {
+    "filename": "25.jpg",
+    "label": "jacket",
+    "box": [
+      174.7,
+      180.3,
+      772.92,
+      734.53
+    ]
+  },
+  {
+    "filename": "25.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      166.45,
+      205.6,
+      746.45,
+      733.68
+    ]
+  },
+  {
+    "filename": "25.jpg",
+    "label": "shoe",
+    "box": [
+      574.1,
+      1354.84,
+      702.44,
+      1533.48
+    ]
+  },
+  {
+    "filename": "26.jpg",
+    "label": "pants",
+    "box": [
+      331.47,
+      1108.28,
+      847.02,
+      1602.24
+    ]
+  },
+  {
+    "filename": "26.jpg",
+    "label": "skirt",
+    "box": [
+      315.4,
+      566.39,
+      879.1,
+      1146.07
+    ]
+  },
+  {
+    "filename": "26.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      333.66,
+      355.15,
+      931.76,
+      1145.61
+    ]
+  },
+  {
+    "filename": "27.jpg",
+    "label": "pants",
+    "box": [
+      366.27,
+      618.28,
+      730.83,
+      1460.44
+    ]
+  },
+  {
+    "filename": "27.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      436.7,
+      268.91,
+      733.28,
+      616.26
+    ]
+  },
+  {
+    "filename": "27.jpg",
+    "label": "shoe",
+    "box": [
+      335.83,
+      1423.89,
+      658.38,
+      1513.47
+    ]
+  },
+  {
+    "filename": "28.jpg",
+    "label": "dress",
+    "box": [
+      348.06,
+      291.49,
+      841.13,
+      1281.66
+    ]
+  },
+  {
+    "filename": "28.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      405.04,
+      289.81,
+      856.72,
+      650.12
+    ]
+  },
+  {
+    "filename": "28.jpg",
+    "label": "shoe",
+    "box": [
+      538.99,
+      1426.91,
+      742.06,
+      1534.07
+    ]
+  },
+  {
+    "filename": "29.jpg",
+    "label": "dress",
+    "box": [
+      356.11,
+      268.62,
+      804.84,
+      1307.93
+    ]
+  },
+  {
+    "filename": "29.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      398.06,
+      272.14,
+      774.19,
+      757.19
+    ]
+  },
+  {
+    "filename": "29.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      368.54,
+      265.7,
+      796.33,
+      716.74
+    ]
+  },
+  {
+    "filename": "29.jpg",
+    "label": "shoe",
+    "box": [
+      446.08,
+      1391.55,
+      704.06,
+      1537.71
+    ]
+  },
+  {
+    "filename": "3.jpg",
+    "label": "pants",
+    "box": [
+      375.05,
+      656.08,
+      751.76,
+      1505.44
+    ]
+  },
+  {
+    "filename": "3.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      360.58,
+      287.43,
+      776.34,
+      808.44
+    ]
+  },
+  {
+    "filename": "3.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      368.17,
+      288.49,
+      771.75,
+      799.19
+    ]
+  },
+  {
+    "filename": "3.jpg",
+    "label": "shoe",
+    "box": [
+      476.82,
+      1444.56,
+      767.96,
+      1533.85
+    ]
+  },
+  {
+    "filename": "4.jpg",
+    "label": "pants",
+    "box": [
+      414.01,
+      645.0,
+      771.22,
+      1466.6
+    ]
+  },
+  {
+    "filename": "4.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      428.14,
+      260.03,
+      808.01,
+      685.38
+    ]
+  },
+  {
+    "filename": "4.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      566.35,
+      290.97,
+      673.07,
+      675.12
+    ]
+  },
+  {
+    "filename": "4.jpg",
+    "label": "vest",
+    "box": [
+      473.06,
+      274.15,
+      686.23,
+      631.02
+    ]
+  },
+  {
+    "filename": "4.jpg",
+    "label": "shoe",
+    "box": [
+      395.31,
+      1455.19,
+      792.45,
+      1536.28
+    ]
+  },
+  {
+    "filename": "5.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      256.65,
+      499.66,
+      901.2,
+      1100.96
+    ]
+  },
+  {
+    "filename": "5.jpg",
+    "label": "skirt",
+    "box": [
+      227.36,
+      1129.91,
+      807.31,
+      1595.65
+    ]
+  },
+  {
+    "filename": "6.jpg",
+    "label": "dress",
+    "box": [
+      273.81,
+      462.06,
+      830.7,
+      1401.12
+    ]
+  },
+  {
+    "filename": "6.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      259.13,
+      449.76,
+      795.43,
+      957.11
+    ]
+  },
+  {
+    "filename": "7.jpg",
+    "label": "pants",
+    "box": [
+      378.91,
+      925.88,
+      925.18,
+      1599.13
+    ]
+  },
+  {
+    "filename": "7.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      323.35,
+      409.76,
+      901.41,
+      923.23
+    ]
+  },
+  {
+    "filename": "8.jpg",
+    "label": "pants",
+    "box": [
+      412.64,
+      642.2,
+      740.35,
+      1517.64
+    ]
+  },
+  {
+    "filename": "8.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      478.72,
+      383.44,
+      679.62,
+      667.35
+    ]
+  },
+  {
+    "filename": "8.jpg",
+    "label": "coat",
+    "box": [
+      350.85,
+      308.54,
+      831.24,
+      932.57
+    ]
+  },
+  {
+    "filename": "8.jpg",
+    "label": "shoe",
+    "box": [
+      490.31,
+      1435.19,
+      785.62,
+      1532.21
+    ]
+  },
+  {
+    "filename": "9.jpg",
+    "label": "pants",
+    "box": [
+      389.7,
+      661.56,
+      766.22,
+      1505.32
+    ]
+  },
+  {
+    "filename": "9.jpg",
+    "label": "top, t-shirt, sweatshirt",
+    "box": [
+      370.24,
+      282.06,
+      788.01,
+      771.39
+    ]
+  },
+  {
+    "filename": "9.jpg",
+    "label": "shirt, blouse",
+    "box": [
+      376.54,
+      286.23,
+      779.87,
+      681.86
+    ]
+  },
+  {
+    "filename": "9.jpg",
+    "label": "shoe",
+    "box": [
+      417.23,
+      1243.28,
+      602.42,
+      1521.33
+    ]
+  }
+]
