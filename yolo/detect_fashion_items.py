@@ -120,7 +120,7 @@ def detect_fashion_items(
                     print(f"  ⚠️ 與已選擇的 {conflict_with} 發生衝突，分數較低，跳過此項目")
                     continue
 
-            # 處理鞋子特殊邏輯
+            # 處理鞋子特殊邏
             if label_id == 23:
                 shoe_candidates.append((score_val, box))
                 print(f"  ✅ 是鞋子，暫存起來備用")
@@ -129,7 +129,7 @@ def detect_fashion_items(
                 print(f"  ✅ 加入 best_detections：{label_name}")
 
 
-        # ✅ 合併兩隻鞋子
+        # ✅ 挑出shoe信心度最高的兩雙進行合併，合併後信心度為1
         shoe_candidates.sort(reverse=True, key=lambda x: x[0])
         if len(shoe_candidates) >= 2:
             _, box1 = shoe_candidates[0]
@@ -139,7 +139,7 @@ def detect_fashion_items(
             x2 = max(box1[2], box2[2])
             y2 = max(box1[3], box2[3])
             merged_box = torch.tensor([x1, y1, x2, y2])
-            best_detections[23] = (1.0, merged_box, "shoe")
+            best_detections[23] = (1.0, merged_box, "merge_shoes")
             print(f"👟 合併鞋子成功，加入 best_detections")
 
         print("\n📌 本張圖的 best_detections 結果：")
